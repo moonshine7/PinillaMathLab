@@ -1,0 +1,8 @@
+{
+  "name": " Angles & Triangles",
+  "description": "An interactive geometry lesson platform covering Parallel Lines, Transversals, and Triangle Theorems using Gemini for AI tutoring, visualization, and real-world context.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

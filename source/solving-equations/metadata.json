@@ -1,0 +1,5 @@
+{
+  "name": "Solving equations/Inequalities",
+  "description": "An educational tool using Gemini 3 Pro Thinking Mode to generate real-world linear equation problems, visualize them on a Cartesian plane, and calculate intersection points.",
+  "requestFramePermissions": []
+}

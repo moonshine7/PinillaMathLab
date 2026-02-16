@@ -1,0 +1,5 @@
+{
+  "name": "TRANSFORMATIONS",
+  "description": "An interactive educational tool that demonstrates the translation of geometric shapes across the four quadrants of a Cartesian plane. Users can trigger random translations and observe the changes in coordinates in a smooth animation.",
+  "requestFramePermissions": []
+}

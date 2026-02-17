@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Lab - Login</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-card {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .emoji { font-size: 4em; margin-bottom: 15px; display: block; }
+        h1 { font-size: 1.8em; color: #333; margin-bottom: 8px; }
+        .subtitle { color: #888; margin-bottom: 35px; font-size: 0.95em; }
+        input[type="password"] {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 1.1em;
+            outline: none;
+            transition: border-color 0.3s;
+            margin-bottom: 15px;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+        input[type="password"]:focus { border-color: #667eea; }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        button:hover { opacity: 0.9; }
+        .error {
+            background: #fff0f0;
+            color: #e53e3e;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            border: 1px solid #fed7d7;
+        }
+        .hint { margin-top: 20px; color: #aaa; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <span class="emoji">🎓</span>
+        <h1>Math Lab</h1>
+        <p class="subtitle">7th Grade Interactive Apps</p>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST">
+            <input type="password" name="password" placeholder="Enter class password" autocomplete="off" autofocus/>
+            <button type="submit">Enter Math Lab →</button>
+        </form>
+        <p class="hint">Ask your teacher for the password</p>
+    </div>
+</body>
+</html>

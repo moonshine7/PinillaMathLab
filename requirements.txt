@@ -1,7 +1,2 @@
-notepad requirements.txt
-```
-
-Replace everything with JUST these two lines:
-```
-Flask==3.0.0
+﻿Flask==3.0.0
 gunicorn

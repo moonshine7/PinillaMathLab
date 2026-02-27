@@ -1,0 +1,8 @@
+{
+  "name": "scientific notation",
+  "description": "An interactive 8th-grade learning platform for mastering scientific notation with positive and negative powers of 10, featuring AI-powered tutoring and real-world search grounding.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

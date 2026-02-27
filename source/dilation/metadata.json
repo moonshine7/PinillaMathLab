@@ -1,0 +1,5 @@
+{
+  "name": " DILATION",
+  "description": "An application that uses Gemini to generate a geometric shape (triangle, trapezoid, rectangle, or square) and places it in a random quadrant on a Cartesian plane, displaying the coordinates of its vertices.",
+  "requestFramePermissions": []
+}

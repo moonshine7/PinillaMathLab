@@ -16,11 +16,76 @@ def login_required(f):
     return decorated
 
 MATH_APPS = [
-    {'id': 'transformations', 'title': 'Transformations', 'description': 'Explore geometric transformations on a coordinate plane', 'icon': '🔄', 'path': '/transformations'},
-    {'id': 'pythagoras', 'title': 'Pythagorean Theorem', 'description': 'Learn and practice the Pythagorean theorem', 'icon': '📐', 'path': '/pythagoras'},
-    {'id': 'volume-shapes', 'title': 'Volume of Shapes', 'description': 'Calculate volumes of 3D geometric shapes', 'icon': '📦', 'path': '/volume-shapes'},
-    {'id': 'angles-triangles', 'title': 'Angles & Triangles', 'description': 'Study angles and triangle properties', 'icon': '△', 'path': '/angles-triangles'},
-    {'id': 'solving-equations', 'title': 'Solving Equations', 'description': 'Practice solving equations and inequalities', 'icon': '✖️', 'path': '/solving-equations'}
+    {
+        'id': 'transformations',
+        'title': 'Transformations',
+        'description': 'Explore geometric transformations on a coordinate plane',
+        'icon': '🔄',
+        'path': '/transformations'
+    },
+    {
+        'id': 'pythagoras-new',
+        'title': 'Pythagorean Theorem',
+        'description': 'Master the Pythagorean theorem and applications',
+        'icon': '📐',
+        'path': '/pythagoras-new'
+    },
+    {
+        'id': 'volume-shapes',
+        'title': 'Volume of Shapes',
+        'description': 'Calculate volumes of 3D geometric shapes',
+        'icon': '📦',
+        'path': '/volume-shapes'
+    },
+    {
+        'id': 'angles-triangles',
+        'title': 'Angles & Triangles',
+        'description': 'Study angles and triangle properties',
+        'icon': '△',
+        'path': '/angles-triangles'
+    },
+    {
+        'id': 'solving-equations',
+        'title': 'Solving Equations',
+        'description': 'Practice solving equations and inequalities',
+        'icon': '✖️',
+        'path': '/solving-equations'
+    },
+    {
+        'id': 'dilation',
+        'title': 'Dilation',
+        'description': 'Explore dilation and scaling transformations',
+        'icon': '🔍',
+        'path': '/dilation'
+    },
+    {
+        'id': 'real-number',
+        'title': 'Real Numbers',
+        'description': 'Understand the real number system',
+        'icon': '🔢',
+        'path': '/real-number'
+    },
+    {
+        'id': 'scatter-plot',
+        'title': 'Scatter Plots',
+        'description': 'Create and analyze scatter plots',
+        'icon': '📊',
+        'path': '/scatter-plot'
+    },
+    {
+        'id': 'scientific-notation',
+        'title': 'Scientific Notation',
+        'description': 'Master powers of 10 and scientific notation',
+        'icon': '🔬',
+        'path': '/scientific-notation'
+    },
+    {
+        'id': 'surface-area',
+        'title': 'Surface Area',
+        'description': 'Calculate surface area of 3D shapes',
+        'icon': '📏',
+        'path': '/surface-area'
+    }
 ]
 
 @app.route('/login', methods=['GET', 'POST'])

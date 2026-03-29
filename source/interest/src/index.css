@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    .print-content, .print-results-summary {
+      box-shadow: none !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      background: white !important;
+      color: black !important;
+      overflow: visible !important;
+    }
+    .print-results-summary * {
+      color: black !important;
+    }
+    .print-results-summary .text-rose-400 {
+      color: #e11d48 !important; /* rose-600 */
+    }
+    .print-results-summary button {
+      display: none !important;
+    }
+    body {
+      background: white !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      overflow: visible !important;
+    }
+    .fixed {
+      display: none !important;
+    }
+    footer {
+      display: none !important;
+    }
+    nav {
+      display: none !important;
+    }
+    header {
+      display: none !important;
+    }
+    .max-w-6xl, .max-w-4xl {
+      max-width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      overflow: visible !important;
+    }
+    /* Remove transforms that can interfere with printing */
+    * {
+      transform: none !important;
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+}

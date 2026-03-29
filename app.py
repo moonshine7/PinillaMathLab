@@ -20,7 +20,42 @@ MATH_APPS = [
     {'id': 'pythagoras', 'title': 'Pythagorean Theorem', 'description': 'Learn and practice the Pythagorean theorem', 'icon': '📐', 'path': '/pythagoras'},
     {'id': 'volume-shapes', 'title': 'Volume of Shapes', 'description': 'Calculate volumes of 3D geometric shapes', 'icon': '📦', 'path': '/volume-shapes'},
     {'id': 'angles-triangles', 'title': 'Angles & Triangles', 'description': 'Study angles and triangle properties', 'icon': '△', 'path': '/angles-triangles'},
-    {'id': 'solving-equations', 'title': 'Solving Equations', 'description': 'Practice solving equations and inequalities', 'icon': '✖️', 'path': '/solving-equations'}
+    {'id': 'solving-equations', 'title': 'Solving Equations', 'description': 'Practice solving equations and inequalities', 'icon': '✖️', 'path': '/solving-equations'},
+    {
+        'id': 'interest',
+        'title': 'Simple vs Compound Interest',
+        'description': 'Compare simple and compound interest calculations',
+        'icon': '💰',
+        'path': '/interest'
+    },
+    {
+        'id': 'mad-explorer',
+        'title': 'Mean Absolute Deviation',
+        'description': 'Explore statistical variation and MAD',
+        'icon': '📈',
+        'path': '/mad-explorer'
+    },
+    {
+        'id': 'real-numbers',
+        'title': 'Real Numbers',
+        'description': 'Master the real number system',
+        'icon': '🔢',
+        'path': '/real-numbers'
+    },
+    {
+        'id': 'scatter-plot',
+        'title': 'Scatter Plots',
+        'description': 'Create and analyze scatter plots',
+        'icon': '📊',
+        'path': '/scatter-plot'
+    },
+    {
+        'id': 'surface-area',
+        'title': 'Surface Area',
+        'description': 'Calculate surface area of 3D shapes',
+        'icon': '📏',
+        'path': '/surface-area'
+    }
 ]
 
 @app.route('/login', methods=['GET', 'POST'])
